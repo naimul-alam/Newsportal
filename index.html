@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>News portal</title>
+    <style>
+        h1{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            margin-bottom: 4px;
+            padding-bottom: 4%;
+            margin-top: auto;
+            
+            
+        }
+        p{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            margin-top: auto;
+            padding-top: 0%;
+            padding-bottom: 0%;
+            
+
+        }
+        #navbar{
+            color: white;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-top: 0%;
+            padding-bottom: 0%;
+         }
+       
+       table, th, td{
+        border: 1px solid black;
+        text-align: center;
+       }
+       th{
+        background-color: blue;
+        color: white;
+       }
+       footer{
+        background-color: blue;
+        color: white;
+        text-align: center;
+       }
+     </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1> <i class="fa-regular fa-newspaper"></i>The Daily Star </h1>
+            <p> <i>The voice of the world</i></p>
+
+        </header>
+    </div>
+    <div>
+        <marquee behavior="scroll" direction="left">
+        <p>Breaking News:Historic Peace Agreement Signed|Global Stock Markets Reach New Highs|Innovation in Tecnology Redefine in Future</p>
+        </marquee>
+    </div>
+    <div id="navbar">
+        <a href="#Top News"><i class="fa-solid fa-fire"></i> Top News</a>
+        <a href="#Global Diplomacy"><i class="fa-solid fa-globe"></i> Global Diplomacy</a>
+        <a href="#Tech Innovation"><i class="fa-solid fa-square-check"></i> Tech Innovation</a>
+        <a href="#Sports & Space News"><i class="fa-solid fa-globe"></i> Sports & Space News</a>
+        <a href="#How To Post"><i class="fa-solid fa-globe"></i> How To Post</a>
+      </div>
+    <div>
+
+        <h3><i class="fa-solid fa-fire"></i>Top News</h3>
+    </div>
+    
+     
+     <table style="border: 2px solid black; height: 20px; width: 1500px;">
+        <tr>
+            <th><i class="fa-solid fa-list"></i> Category</th>
+            <th><i class="fa-solid fa-heading"></i> Headline</th>
+            <th><i class="fa-regular fa-calendar"></i> Date</th>
+        </tr>
+        <tr>
+            <td>World</td>
+            <td>Historic Peace Agreement</td>
+            <td>November 22,2024</td>
+        </tr>
+        <tr>
+            <td>Buisness</td>
+            <td>Stock Market Soars</td>
+            <td>November 21,2024</td>
+        </tr>
+        <tr>
+            <td>Tecnology</td>
+            <td>AI Breakthoughts</td>
+            <td>November 20,2024</td>
+        </tr>
+        
+    
+     </table>   
+    </div>
+    <br>
+    <section>
+        <h3 style="background-color: blue; color: white;"><i class="fa-solid fa-globe"></i> Global Diplomacy</h3>
+        
+        <img src="./src/global.png" height="200" width="200" alt="Global Diplomacy">
+        <br>
+        <h4> <b><i class="fa-solid fa-handshake"></i> Global Summit Held</b></h4>
+        <h5><i class="fa-solid fa-calendar"></i> Published: November 18,2024</h5>
+        <details>
+            <summary>Read More</summary>
+            <h4>
+                World leaders gather to address pressing global challenges,focusing on climate change and economic stability.
+            </h4>
+        </details>
+        <hr>
+        <img src="./src/download.jpeg" height="200" width="200" alt="Trade Agreement">
+        <h4><b><i class="fa-solid fa-square-check"></i> New Trade Agreements</b></h4>
+        <h5><i class="fa-solid fa-calendar"></i> Published: November 17,2024</h5>
+        <details>
+            <summary>Read More</summary>
+            <h4>
+                World leaders gather to address pressing global challenges,focusing on climate change and economic stability.
+            </h4>
+        </details>
+    </section>
+     <section>
+        <h3 style="background-color: blue; color: white;"><i class="fa-solid fa-gears"></i> Tech Innovation </h3>
+        
+        <img src="./src/download (1).jpeg" height="200" width="200" alt="Tech Innovation">
+        <h4><b><i class="fa-solid fa-file-code"></i> AI Revolations Buisness</b></h4>
+        <h5><i class="fa-solid fa-calendar"></i> Published: November 15,2024</h5>
+        <details>
+            <summary>Read More</summary>
+            <h4>
+                World leaders gather to address pressing global challenges,focusing on climate change and economic stability.
+            </h4>
+        </details>
+     </section>
+     <section>
+        <h3 style="background-color: blue; color: white;"><i class="fa-solid fa-baseball"></i> Sports & Space News </h3>
+        <img src="./src/download (2).jpeg" height="200" width="200" alt="world champions">
+        <h4><b><i class="fa-solid fa-trophy"></i> World Cup Finals</b></h4>
+        <h5><i class="fa-solid fa-calendar"></i> Published: November 10,2024</h5>
+        <details>
+            <summary>Read More</summary>
+            <h4>
+                World leaders gather to address pressing global challenges,focusing on climate change and economic stability.
+            </h4>
+        </details>
+    </section>
+    <h3 style="background-color: blue; color: white;"><i class="fa-solid fa-pencil"></i> Submit Your News </h3>
+    <form action="./pages.html">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="Email" id="email" placeholder="Enter your email">
+        <br> <br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea name="massage" id="feedback" rows="5" cols="15" placeholder="Enter your feedback"></textarea> <br><br>
+        <button><i class="fa-solid fa-paper-plane"></i> submit</button>
+       </form>
+       <h3 style="background-color: blue; color: white;"><i class="fa-solid fa-paper-plane"></i> How to Post</h3> <br>
+       <video controls width="1500px" height="400px">
+        <source src="video.mp4" type="video/mp4">
+        
+      </video>
+      <br>
+      <footer>
+        <p>&copy; 2024 The Daily Star | All Rights Reserved</p>
+        <p>Follow us <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-linkedin"></i> <i class="fa-brands fa-instagram"></i></p>
+
+
+      </footer>
+    
+
+     
+    
+
+    
+    
+</body>
+</html>
